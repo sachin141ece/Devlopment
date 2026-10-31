@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 3</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Student Information</caption>
+        
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+
+            <tr>
+                
+                <th>City</th>
+                <th>House</th>
+            </tr>
+        
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+
+             <tr>
+                <td>B</td>
+                <td>Mmbai</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+
+            
+        
+    </table>
+<br>
+    <form action="/server">
+        <label for="name" >Name:</label>
+        <input type="text" placeholder="Enter Name" id="name" name="Name"/>
+        <br>
+        <label for="sex">Sex:</label>
+        <input type="radio" name="gender" id="male" value="Male"/>
+        <label for="male">Male</label>
+         <input type="radio" name="gender" id="female" value="Female"/>
+        <label for="female">Female</label>
+        <br>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+               <option value="india">India</option>
+                <option value="nepal">Nepal</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+        </select>
+
+        <br>
+    
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" cols="30" rows="4"></textarea>
+
+        
+        <br>
+
+        <input type="checkbox" name="sub" id="sub"/>
+        <label for="sub">Subscribe?</label>
+
+        <button>Submit</button>
+
+        <br>
+
+        <form action="/server">
+            <h2>Feedback Form</h2>
+            
+        </form>
+           
+    </form>
+</body>
+</html>
